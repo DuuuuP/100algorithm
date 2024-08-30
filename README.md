@@ -1,19 +1,19 @@
-# 100 algorithm
+# 算法说明
 
-## Documentation
+## 简介
 
    集成这100种生理信号预处理算法，这些算法提高数据预处理的效率，使得科研人员和临床医生能够更好地理解复杂的生理机制并提供更为精准的医疗服务。
 
-## Features
-  * method
-    *  功能1：EEG，ECG，ECOG，EOG的预处理
+## 特征
+  * 功能
+    * 功能1：EEG，ECG，ECOG，EOG的预处理
     * 功能2：EEG，ECG，ECOG，EOG的特征提取
- * Supported Datasets
+  * 支持的数据集
     * EEG
     * ECG
     * EOG
     * ECOG
-## Dependencies
+## 依赖
 运行所需的最低依赖项：
 * 环境
   - Python ≥ 3.9.9
@@ -62,12 +62,12 @@
    - wheel ≥ 0.37.0
    - zipp ≥ 3.19.2
 
-## Installation
+## 安装
 
 要使用这些库的指令：
 pip install package_name == version
 
-### Example
+### 示例
 
 ```bash
 pip install --upgrade pip
@@ -80,7 +80,7 @@ pip install numpy==1.21.0
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
-## MetaBCI Installation
+## MetaBCI 安装方法
 
 - 1.克隆存储库
 ```bash
