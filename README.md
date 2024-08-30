@@ -16,21 +16,58 @@
 ## Dependencies
 运行所需的最低依赖项：
 * 环境
-  - Python ≥ 3.10
-*工具
-  - NumPy ≥ 1.24
-  - PyWavelets
-  - Matplotlib
-  - MNE ≥ 
-  - SciPy ≥ 1.10
-  - Matplotlib ≥ 3.6
-  - Pytroch ≥
-  - scikit-learn ≥
-  - MetaBCI
+  - Python ≥ 3.9.9
+* 工具
+   - cecbutils ≥ 0.0.5
+   - certifi ≥ 2024.7.4
+   - charset-normalizer ≥ 3.3.2
+   - contourpy ≥ 1.2.1
+   - cycler  ≥ 0.12.1
+   - decorator ≥ 5.1.1
+   - fonttools ≥ 4.53.1
+   - future ≥ 1.0.0
+   - idna ≥ 3.7
+   - importlib_resources ≥ 6.4.0
+   - Jinja2 ≥ 3.1.4
+   - joblib ≥ 1.4.2
+   - kiwisolver ≥ 1.4.5
+   - lazy_loader ≥ 0.4
+   - MarkupSafe ≥ 2.1.5
+   - matplotlib ≥ 3.9.1
+   - mne ≥ 1.7.1
+   - metabci
+   - nolds ≥ 0.5.2
+   - numpy ≥ 1.26.4
+   - packaging ≥ 24.1
+   - pandas ≥ 2.2.2
+   - pillow  ≥ 10.4.0
+   - pip  ≥ 24.1.2
+   - platformdirs ≥ 4.2.2
+   - pooch ≥ 1.8.2
+   - pyparsing ≥ 3.1.2
+   - python-dateutil ≥ 2.9.0.post0
+   - pytz ≥ 2024.1
+   - PyWavelets ≥ 1.5.0
+   - requests ≥ 2.31.0
+   - scikit-learn ≥ 1.5.1
+   - scipy ≥ 1.13.1
+   - setuptools ≥ 57.5.0
+   - six ≥ 1.16.0
+   - threadpoolctl ≥ 3.5.0
+   - torch ≥ 2.2.0
+   - tqdm ≥ 4.66.4
+   - typing ≥ 3.7.4.3
+   - tzdata ≥ 2024.1
+   - urllib3 ≥ 2.2.2
+   - wheel ≥ 0.37.0
+   - zipp ≥ 3.19.2
 
 ## Installation
 
 要使用这些库的指令：
+pip install package_name == version
+
+###　Example
 
 ```bash
 pip install --upgrade pip
@@ -38,6 +75,9 @@ pip install --upgrade pip
 
 ```bash
 pip install numpy==1.21.0
+```
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## MetaBCI Installation
