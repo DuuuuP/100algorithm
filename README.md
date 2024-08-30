@@ -2,17 +2,51 @@
 
 ## 简介
 
-   集成这100种生理信号预处理算法，这些算法提高数据预处理的效率，使得科研人员和临床医生能够更好地理解复杂的生理机制并提供更为精准的医疗服务。
+   集成这100多种生理信号预处理算法，这些算法提高数据预处理的效率，使得科研人员和临床医生能够更好地理解复杂的生理机制并提供更为精准的医疗服务。
 
-## 特征
-  * 功能
-    * 功能1：EEG，ECG，ECOG，EOG的预处理
-    * 功能2：EEG，ECG，ECOG，EOG的特征提取
+## 功能示例
+  * scipy示例 
+    * High-pass filtering（高通滤波）
+    * Low-pass filtering（低通滤波）
+    * Band-pass filtering（带通滤波）
+    * Band-stop filtering（带阻滤波）
+    * Adaptive filtering（自适应滤波）
+  * numpy示例
+    * FFT（快速傅立叶变换）
+    * FFT（快速傅立叶变换）
+    * STFT（短时傅里叶变换）
+  * mne示例
+    * ICA（独立成分分析）
+    * 伪迹去除
+    * Mean Amplitude Difference（平均幅度差）
+    * 脑电图（EEG）拓扑图
+    * Mean Amplitude Difference（平均幅度差）
+  * MetaBCI示例
+    * Decomposition Methods
+    * Manifold Learning
+    * Deep Learning
+    * Transfer Learning
+  * scikit-learn示例
+    * PCA（主成分分析）
+    * PLS（偏最小二乘回归）
+    * 线性判别分析（LDA、SWLDA、SKLDA、BLDA、STDA）
+    * DSP（判别空间模式）
+  * troch示例
+    * LSTM（长短期记忆网络 ）
+    * RNN（递归神经网络）
+    * CNN（卷积神经网络）
   * 支持的数据集
     * EEG
+      *  P300
+      *  ssvep
+      *  MI
+      *  情绪识别
     * ECG
     * EOG
     * ECOG
+
+全部算法请查看算法平台，详细支撑算法相关工具和版本请参考下面依赖！！！
+
 ## 依赖
 运行所需的最低依赖项：
 * 环境
